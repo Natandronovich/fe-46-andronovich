@@ -51,18 +51,20 @@ select {
   font: inherit;
 }
 
-.container {
+/*.container {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+  }*/
 
- /* .container {
+.container {
     max-width: 1170px;
     margin: 0 auto;
-}*/
+}
 
-
+.wrapper {
+    width: 1170px;
+}
 
 
 
