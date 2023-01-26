@@ -1,101 +1,107 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap');
 
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-article > * + * {
-  margin-top: 1em;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
-.title{
-    text-align: center;
-}
-
-/*h2 {
-    font-family: "Raleway";
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    color: #000000;
+*, 
+*::before, 
+*::after { 
+  box-sizing: border-box; 
 } 
-
-hr {
-    border: none; 
-    background-color:#EC7979; 
-    height: 1px;
-    width: 170px;
+ 
+ul[class], 
+ol[class] { 
+  padding: 0; 
+} 
+ 
+body, 
+h1, 
+h2, 
+h3, 
+h4, 
+p, 
+ul[class], 
+ol[class], 
+li, 
+figure, 
+figcaption, 
+blockquote, 
+dl, 
+dd { 
+  margin: 0; 
+} 
+ 
+ul, 
+ol { 
+  list-style: none; 
+} 
+ 
+a:not([class]) { 
+  text-decoration-skip-ink: auto; 
+} 
+ 
+img { 
+  max-width: 100%; 
+  display: block; 
+} 
+ 
+article > * + * { 
+  margin-top: 1em; 
+} 
+ 
+input, 
+button, 
+textarea, 
+select { 
+  font: inherit; 
+} 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
-/*.subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #86878B;
-    margin-bottom: 30px;
-}
-
-.items {
-  display: flex;
-}
-
-.item {
-    max-width: 370px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container { 
+    max-width: 1170px; 
+    margin: 0 auto; 
+} 
+ 
+.title{ 
+    text-align: center; 
+} 
+ 
+h2 { 
+    font-family: "Raleway"; 
+    font-weight: 400; 
+    font-size: 36px; 
+    line-height: 42px; 
+    text-align: center; 
+    color: #000000; 
+}  
+ 
+hr { 
+    border: none;  
+    background-color:#EC7979;  
+    height: 1px; 
+    width: 170px; 
+} 
+ 
+.subtitle { 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 21px; 
+    text-align: center; 
+    color: #86878B; 
+    margin-bottom: 30px; 
+} 
+ 
+.items { 
+  display: flex; 
+} 
+ 
+.item { 
+    max-width: 370px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
