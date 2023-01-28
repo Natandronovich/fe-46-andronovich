@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-tabs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 501px;
+    padding-top: 100px;
+}
+
+/* tabs-list? */ 
+.container-tabs__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+ 
+}
+
+
+.tabs {
+    width: 184px;
+    height: 40px;
+  }
+
+  /* ? */
+.tab_active{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-top: 1px solid #C6CBCD;
+border-left: 1px solid #C6CBCD;
+border-bottom: white;
+border-right: 1px solid #C6CBCD;
+border-radius: 5px;
+
+}
+
+.tabs__body{
+    border: 1px solid #C6CBCD;
+}
+
+/* ? */
+.tabs__body-title {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+
+/* ? */
+  .tabs__image{
+    width: 470px;
+    height: 500px;
+  }
