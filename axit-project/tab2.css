@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.tabs__list {
+    padding: 98px 0 50px 0;
+}
+
+.tabs__wrapper {
+    font-size: 0;
+}
+
+.tabs__wrapper>input[type="radio"] {
+    display: none;
+}
+
+.tabs__wrapper>div {
+    display: none;
+    border: 1px solid #C6CBCD;
+}
+
+#tabs_btn-1:checked~#tabs__content-1,
+#tabs_btn-2:checked~#tabs__content-2,
+#tabs_btn-3:checked~#tabs__content-3 {
+    display: block;
+}
+
+.tabs__wrapper>label {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0;
+    width: 184px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;  
+    text-transform: uppercase;
+}
+
+.tabs__wrapper>input[type="radio"]:checked+label {
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    background: #fff;
+    top: 1px;
+    position: relative;
+    width: 203px;
+    height:40px;
+}
+
+.tabs__content-wrapper { 
+    display: flex;
+}
+
+.tabs__title {
+    padding: 41px 0;
+}
+
+.tabs__title h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+}
+
+.tabs__block-text {
+    /* max-width: 570px; */
+    max-width: 700px;
+    margin: 0 30px 0 100px;
+    padding-bottom: 54px;
+}
+
+/* .tabs__text {
+    padding: 27px 0;
+} */
+
+.tabs__text h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.tabs__btn {
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color: #fff;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.tabs__image {
+    max-height: 500px;
+    /* width: 470px; */
+} 
