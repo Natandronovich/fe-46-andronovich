@@ -7,86 +7,59 @@
     <title>AXIT</title>
     <link href="/axit-project/reset.css" rel="stylesheet">
     <link href="/axit-project/about.css" rel="stylesheet">
-    <link href="/axit-project/pricing.css" rel="stylesheet">
+    <link href="/axit-project/images/Rectangle 111.png" rel="stylesheet">
 </head>
 <body>
-    <section class="tabs">
-        <div class="container">
-            <div class="container-tabs__wrapper">
-                <div class="content">
-                    <div class="tabs">
-                        <nav class="tabs__items">
-                            <a href="tab_01" class="tabs__item">TAB 1</a>
-                            <a href="tab_02" class="tabs__item">TAB 2</a>
-                            <a href="tab_03" class="tabs__item">TAB 3</a>
-                        </nav>
-                        <div class="tabs__body">
-                            <div class="tabs__wrapper">
-                                <div id="tab_01" class="tabs__block">
-                                    <div class="tab__left-part">
-                                        <div class="tab__body-title">
-                                            <div class="tabs__body-title">
-                                                <h3>Tabs with soft transitioning effect.</h3>
-                                            </div>
-                                        </div>
-                                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                        penatibus et magnis dis parturient montes.<br>
-                                        <br>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                        bibendum laoreet.</h5>
-                                        <div class="tabs__button-wrapper">
-                                            <div class="tabs__button">
-                                                <button class="tabs__button">Download</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab__right-part">
-                                        <div class="tabs__image">
-                                            <img src="/axit-project/images/Rectangle 111.png" alt="The Statue of Liberty">
-                                        </div>
-                                    </div>
-                                    <!-- <div id="tab_02" class="tabs__block">
-                                        <div class="tab__left-part">
-                                            <div class="tab__body-title">
-                                                <div class="tabs__body-title">
-                                                    <h3>Tabs with soft transitioning effect.</h3>
-                                                </div>
-                                            </div>
-                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                            penatibus et magnis dis parturient montes.<br>
-                                            <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                            bibendum laoreet.</h5>
-                                            <div class="tabs__button-wrapper">
-                                                <div class="tabs__button">
-                                                    <button class="tabs__button">Download</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id="tab_01" class="tabs__block">
-                                            <div class="tab__left-part">
-                                                <div class="tab__body-title">
-                                                    <div class="tabs__body-title">
-                                                        <h3>Tabs with soft transitioning effect.</h3>
-                                                    </div>
-                                                </div>
-                                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br> 
-                                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br> 
-                                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                                                penatibus et magnis dis parturient montes.<br>
-                                                <br>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                                                bibendum laoreet.</h5>
-                                                <div class="tabs__button-wrapper">
-                                                    <div class="tabs__button">
-                                                        <button class="tabs__button">Download</button>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+    <section class="tabs" id="tabs">
+        <div class="container-tabs__wrapper">
+            <div class="tabs__wrapper">
+                <div class="tabs-list">
+                    <div class="tab">
+                        <div class="tab__wrapper">
+                            <input class="tab-radio" type="radio" id="tab1" name="tabs" value="tab1" checked>  
+                            <label class="tab-name" for="tab1">TAB 1</label>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__wrapper">
+                            <input class="tab-radio" type="radio" id="tab2" name="tabs" value="tab2">  
+                            <label class="tab-name" for="tab2">TAB 2</label>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab__wrapper">
+                            <input class="tab-radio" type="radio" id="tab3" name="tabs" value="tab3">  
+                            <label class="tab-name" for="tab3">TAB 3</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__body">
+                    <div class="body-content">
+                        <div class="text">
+                            <div class="text__title">
+                                <h3>Tabs with soft transitioning effect.</h3>
+                            </div>
+                            <div class="text__description">
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean<br> 
+                                    euismod<br> 
+                                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et<br> 
+                                    viverra<br> 
+                                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque<br> 
+                                    penatibus et magnis dis parturient montes.</h5>
+                                <h5>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aenean<br>
+                                    euismod<br>
+                                    bibendum laoreet.<br>
+                                </h5>
+                            </div>
+                            <div class="tabs__button">
+                                <button type="button">Download</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__image">
+                        <img src="/axit-project/images/Rectangle 111.png" alt="State_of_independ">
+                    </div>
                 </div>
             </div>
         </div>
