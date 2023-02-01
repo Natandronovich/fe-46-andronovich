@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 
 .container{
@@ -14,10 +13,6 @@ body {
     padding: 98px 0 50px 0;
 }
 
-.tabs__wrapper {
-    font-size: 0;
-}
-
 .tabs__wrapper>input[type="radio"] {
     display: none;
 }
@@ -27,9 +22,9 @@ body {
     border: 1px solid #C6CBCD;
 }
 
-#tabs_btn-1:checked~#tabs__content-1,
-#tabs_btn-2:checked~#tabs__content-2,
-#tabs_btn-3:checked~#tabs__content-3 {
+#tabs_btn-one:checked~#tabs__content-one,
+#tabs_btn-two:checked~#tabs__content-two,
+#tabs_btn-three:checked~#tabs__content-three {
     display: block;
 }
 
