@@ -5,8 +5,9 @@ body {
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
+    min-width: 1510px;
 }
 
 .banner-two__wrapper {
