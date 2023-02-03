@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Raleway&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-two__wrapper {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image.png);
+    background-size: 100%;
+}
+
+.divider {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    border-bottom: 2px solid #EC7979;
+}
+
+.divider_white {
+    border: 1px solid #FFFFFF;
+}
+
+.banner-two__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.banner-two__title {
+    padding: 54px 0
+}
+
+.banner-two__title h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;;
+}
+
+.banner-two__description{
+    padding: 40px 0
+}
+
+.banner-two__description h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.banner-two__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 0 50px 0;
+}
+
+.banner-two__btn {
+    width: 370px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
