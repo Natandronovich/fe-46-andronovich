@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    /* width: 100%; */
+.banner-two__container {
+    width: 100%;
     margin: 0 auto;
     min-width: 1510px;
 }
