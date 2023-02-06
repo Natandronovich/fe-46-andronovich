@@ -7,7 +7,7 @@ body {
 .banner-two__container {
     width: 100%;
     margin: 0 auto;
-    min-width: 1510px;
+    max-width: 1510px;
 }
 
 .banner-two__wrapper {
@@ -70,8 +70,6 @@ body {
     width: 370px;
     height: 58px;
     border: 2px solid #FFFFFF;
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
