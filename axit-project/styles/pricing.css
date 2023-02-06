@@ -1,23 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 .pricing {
     background-color: #F5F5F5;
-}
-
-.divider {
-    display: block;
-    width: 170px;
-    margin: 0 auto;
-    border-bottom: 2px solid #EC7979;
 }
 
 .pricing__header {
@@ -74,7 +56,6 @@ body {
     height: 60px;
     background: #333333;
     border: 2px solid #F5F5F5;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
