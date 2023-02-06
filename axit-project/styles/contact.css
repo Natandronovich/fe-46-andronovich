@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.divider {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    border-bottom: 2px solid #EC7979;
+}
+
+.contact__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.contact__wrapper {
+    margin: 50px 0;
+}
+
+.contact__title {
+    padding: 54px 0;
+}
+
+.contact__title h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact__description {
+    padding: 40px 0;
+}
+
+.contact__description h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form__row{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact__input{
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 16px 0;
+    margin-bottom: 34px;
+}
+
+.contact__input::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+
+
+.textarea{
+    resize: none;
+    width: 571px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 175px;
+    padding-top: 16px;
+    margin-bottom: 34px;
+}
+
+.textarea::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+}
+
+.contact__btn {
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+}
