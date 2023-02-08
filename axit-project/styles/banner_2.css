@@ -2,13 +2,13 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image.png);
     background-size: 100%;
 }
-
+/* 
 .divider {
     display: block;
     width: 170px;
     margin: 0 auto;
     border-bottom: 2px solid #EC7979;
-}
+} */
 
 .divider_white {
     border: 1px solid #FFFFFF;
