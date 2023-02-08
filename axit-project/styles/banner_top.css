@@ -72,12 +72,7 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
-    width: 270px;
-    /* height: ; */
-}
-
-.banner-top__button {
-    /* padding-top: 17px; */
+    max-width: 270px;
 }
 
 .banner-top__btn {
