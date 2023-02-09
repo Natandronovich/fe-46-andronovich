@@ -24,6 +24,15 @@
     padding: 40px auto;
 }
 
+.pricing__description h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
 .pricing__card-description h5 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
