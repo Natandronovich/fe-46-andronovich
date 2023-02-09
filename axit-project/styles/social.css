@@ -1,0 +1,57 @@
+.social {
+    background-color: #F8EFEF;
+}
+
+.social__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-height: 140px; */
+}
+
+.social-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 140px;
+    margin-right: 50px;
+}
+
+.social-text__title {
+    padding: 18px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.social-text__descr {
+    max-height: 42px;
+    max-width: 470px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #86878B;
+    margin-bottom: 18px;
+}
+
+.social-icons__list {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.social-icons__list li {
+    padding-right: 44px;
+}
+
+.social-icons__list li:last-child {
+    padding-right: 0;
+}
