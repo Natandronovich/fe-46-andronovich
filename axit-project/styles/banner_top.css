@@ -115,7 +115,7 @@
 }
 
 .banner-top__input {
-    width: 370px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding: 16px 0;
