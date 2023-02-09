@@ -3,8 +3,13 @@
 @import url(./styles/tab.css);
 @import url(./styles/about.css);
 @import url(./styles/pricing.css);
-@import url(./styles/contact.css);
+@import url(./styles/reviews.css);
 @import url(./styles/banner_2.css);
+<<<<<<< HEAD
 @import url(./styles/header.css);
 @import url(./styles/banner_top.css);
 @import url(./styles/social.css);
+=======
+@import url(./styles/contact.css);
+@import url(./styles/header.css);
+>>>>>>> 7be985286ac21dd6572091fdb46be4e82d433148

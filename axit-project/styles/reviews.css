@@ -1,0 +1,133 @@
+.reviews__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reviews__title h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 54px 0;
+    text-transform: uppercase;
+}
+
+.reviews__description {
+    padding: 40px auto;
+}
+
+.pricing__card-description h5 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+
+.reviews__cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 33px 0 64px 0
+}
+
+.reviews__card {
+    max-width: 370;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__message{
+    display: flex;
+    max-width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+}
+
+.card__text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 37px auto;
+}
+
+.card__text h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+
+.card__user {
+    display: flex;
+    padding-top: 66px;
+}
+
+.avatar__wrapper img {
+    border: 50%;
+    width: 70px;
+
+}
+
+.card__info {
+    width: 269px;
+    padding-left: 30px;
+}
+
+.card__info-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card__info-name h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.card__info-profession {
+    display: flex;
+    align-items: center;
+}
+
+.card__info-profession h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.card__message{
+    position: relative;
+}
+
+.card__message::after{
+    content: '';
+    position: absolute;
+    border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #E2E2E2;
+    top: 100%;
+    left: 20%;
+}
