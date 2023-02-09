@@ -8,7 +8,35 @@
     <link href="./index.css" rel="stylesheet">
 </head>
 <body>
-    <section class="tabs">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__row">
+                <a href="#" class="header__logo">
+                    <img src="./images/logo.png" alt="логотип">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#tabs" class="menu__link">Features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about" class="menu__link">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#pricing" class="menu__link">Pricing</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Reviews</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact" class="menu__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="tabs" id="tabs">
         <div class="container">
             <div class="wrapper">
                 <div class="tabs__list">
@@ -108,7 +136,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__header">
                 <div class="about__title">
@@ -180,7 +208,7 @@
             </div>
         </div>
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <div class="pricing__wrapper">
                 <div class="pricing__header">
@@ -403,3 +431,4 @@
     </section>
 </body>
 </html>
+
