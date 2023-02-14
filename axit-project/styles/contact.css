@@ -25,7 +25,8 @@
 }
 
 .contact__description {
-    padding: 40px 0;
+    padding-bottom: 50px;
+    /* padding: 40px auto; */
 }
 
 .contact__description h5 {
