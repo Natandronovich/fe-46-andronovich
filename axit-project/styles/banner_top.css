@@ -8,7 +8,8 @@
 }
 .banner-container{
     display: flex;
-    max-width: 1170px;
+    max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -89,6 +90,18 @@
     color: #FFFFFF;
 }
 
+/* 
+не применяется Почему?? */
+.banner-top__button:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner-top__button:active{
+    background: #AB4949;
+    border: 2px solid #AB4949;
+}
+
 .banner-form__wrap{
     display: flex;
     flex-direction: column;
@@ -151,3 +164,15 @@
     cursor: pointer;
     color: #FFFFFF;
     }
+
+.banner-form__btn:hover{
+    color: #FFFFFF;
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner-form__btn:active{
+    color: #FFFFFF;
+    background: #AB4949;
+    border: 2px solid #AB4949;
+}

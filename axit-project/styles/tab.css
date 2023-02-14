@@ -64,6 +64,10 @@
     padding-bottom: 54px;
 }
 
+.tabs__text{
+    max-width: 570px;
+    /* white-space: pre-line; */
+}
 
 .tabs__text h5 {
     font-family: 'Raleway';
@@ -90,7 +94,15 @@
     cursor: pointer;
 }
 
+.tabs__btn:hover{
+    background: #AB4949;
+}
+
+.tabs__btn:active{
+    background: #EC7979;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .tabs__image {
     max-height: 500px;
-    /* width: 470px; */
 } 

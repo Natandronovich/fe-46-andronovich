@@ -2,13 +2,6 @@
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/image.png);
     background-size: 100%;
 }
-/* 
-.divider {
-    display: block;
-    width: 170px;
-    margin: 0 auto;
-    border-bottom: 2px solid #EC7979;
-} */
 
 .divider_white {
     border: 1px solid #FFFFFF;
@@ -54,6 +47,7 @@
     padding: 33px 0 50px 0;
 }
 
+
 .banner-two__btn {
     width: 370px;
     height: 58px;
@@ -63,4 +57,15 @@
     line-height: 25px;
     color: #FFFFFF;
     background-color: transparent;
+}
+
+.banner-two__btn:hover{
+    color: #EC7979;
+    border: 2px solid #EC7979;
+}
+
+.banner-two__btn:active{
+    color: #FFFFFF;
+    background: #AB4949;
+    border: 2px solid #AB4949;
 }
