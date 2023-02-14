@@ -45,6 +45,7 @@
 .form__row{
     display: flex;
     margin-bottom: 16px;
+    width: 1170px;
 }
 
 .contact__input{
