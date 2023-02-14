@@ -90,14 +90,12 @@
     color: #FFFFFF;
 }
 
-/* 
-не применяется Почему?? */
-.banner-top__button:hover{
+.banner-top__btn:hover{
     color: #EC7979;
     border: 2px solid #EC7979;
 }
 
-.banner-top__button:active{
+.banner-top__btn:active{
     background: #AB4949;
     border: 2px solid #AB4949;
 }

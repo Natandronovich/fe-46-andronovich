@@ -48,24 +48,21 @@
 }
 
 .contact__input{
-    width: 571px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #bdbdbd;
     padding: 16px 0;
     margin-bottom: 34px;
 }
 
-/* .input__wrap {
-    display: flex;
-    flex-direction: column;
-    max-width: 571px;
+.input__wrap {
+    flex: 1;
+    margin-right: 30px;
 }
 
 .textarea__wrap{
-    display: flex;
-    flex-direction: column;
-    max-width: 571px;
-} */
+    flex: 1;
+}
 
 .contact__input::placeholder{
     font-family: 'Open Sans';
@@ -81,7 +78,7 @@
 
 .textarea{
     resize: none;
-    width: 571px;
+    width: 100%;
     border: none;
     border-bottom: 1px solid #bdbdbd;
     padding-bottom: 175px;

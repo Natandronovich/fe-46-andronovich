@@ -80,6 +80,11 @@
     color: #000000;
 }
 
+.tabs__image img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .tabs__btn {
     width: 270px;
     height: 58px;
@@ -102,7 +107,3 @@
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
 }
-
-.tabs__image {
-    max-height: 500px;
-} 
