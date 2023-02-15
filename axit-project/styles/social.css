@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-height: 140px; */
 }
 
 .social-text {
@@ -55,3 +54,58 @@
 .social-icons__list li:last-child {
     padding-right: 0;
 }
+
+
+@media screen and (max-width: 1024px){
+    .social-text{
+        max-width: 363px;
+    }
+
+    .social-text__title{
+        padding: 14px 0;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .social-text__descr{
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .social-icons__list li {
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .social__wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .social-text__title{
+        padding: 31px 0;
+        justify-content: center;
+    }
+
+    .social-text__descr{
+        text-align: center;
+    }
+
+        .social-icons__list img{
+        width: 28px;
+        height: 26px;
+    }
+
+    .social-icons__list {
+        margin-bottom: 44px;
+    }
+
+    .social-icons__list li {
+        padding-right: 15px;
+    }
+}
+

@@ -26,7 +26,6 @@
 
 .contact__description {
     padding-bottom: 50px;
-    /* padding: 40px auto; */
 }
 
 .contact__description h5 {
@@ -43,6 +42,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .form__row{
     display: flex;
     margin-bottom: 16px;
@@ -122,4 +122,70 @@ contact__btn:hover{
     color: #FFFFFF;
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+@media screen and (max-width: 1200px){
+    .form__row{
+        width: 992px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .contact__title{
+        padding: 48px 0;
+    }
+
+    .contact__title h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .contact__description h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .contact__description{
+        padding: 9px 0 36px 0;
+    }
+
+    .input__wrap {
+        margin-right: 20px;
+    }
+
+    .contact__btn {
+        width: 318px;
+    }
+
+}
+
+@media screen and (max-width: 1015px){
+    .form__row {
+        width: 650px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .form__row {
+        width: 300px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .contact__wrapper {
+        margin: 0 0 40px 0;
+    }
+
+    .form__row {
+        width: 288px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contact__btn {
+        width: 288px;
+    }
 }
