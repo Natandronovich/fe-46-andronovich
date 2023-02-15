@@ -95,7 +95,11 @@
         text-align: center;
     }
 
-        .social-icons__list img{
+    .social__icons{
+        padding-bottom: 44px;
+    }
+
+    .social-icons__list img{
         width: 28px;
         height: 26px;
     }

@@ -67,7 +67,7 @@ ul.menu__list li {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin-left: -35px;
+    margin-left: -20px;
     background: transparent;
     border: none;
     justify-content: space-between;
@@ -172,7 +172,7 @@ ul.sidebar__list li {
     }
 
     .header__logo {
-        margin-left: 20px;
+        margin-left: 18px;
         width: 140px;
     }
     nav.menu{
