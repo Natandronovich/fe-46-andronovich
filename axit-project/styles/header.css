@@ -85,6 +85,25 @@ ul.menu__list li {
     background: #FFFFFF;
 }
 
+
+.header__burger span:first-child:active {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.header__burger span:nth-child(2):active {
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.header__burger span:last-child:active {
+    display: none;
+}
+
+.header__burger button:active {
+    justify-content: center;
+}
+
 .sidebar {
     display: none;
     position: absolute;
@@ -157,8 +176,19 @@ ul.sidebar__list li {
     .header__logo img{
         margin-left: 0px;
     }
+
+    .menu__link{
+        padding: 0 10px;
+    }
+
     ul.menu__list {
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .menu__link{
+        padding: 0 5px;
     }
 }
 
