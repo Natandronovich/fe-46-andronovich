@@ -50,3 +50,41 @@ footer {
     color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 1024px){
+    .footer__text h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-icon__list li {
+        padding-right: 36px;
+    }
+
+
+    .footer-icon__list img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .footer__text{
+    padding-top: 18px;
+    padding-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .footer-icon__list li {
+        padding-right: 22px;
+    }
+
+    .footer-icons__list img{
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer-icon__list li {
+        padding-right: 10px;
+    }
+}

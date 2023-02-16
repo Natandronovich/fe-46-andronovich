@@ -37,7 +37,6 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    /* flex-wrap: wrap; */
     padding: 33px 0 64px 0
 }
 
@@ -130,4 +129,114 @@
 	border-top: 30px solid #E2E2E2;
     top: 100%;
     left: 20%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .reviews__card{
+        max-width: 319px;
+    }
+
+    .card__message{
+        max-width: 319px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .reviews__header{
+        padding: 50px 0 0 0;
+    }
+
+    .reviews__title h2 {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 48px 0;
+    }
+
+    .reviews__description h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .reviews__cards {
+        padding: 8px 0 59px 0;
+    }
+
+    .reviews__card{
+        max-width: 317px;
+        
+    }
+
+    .card__message{
+        max-width: 317px;
+    }
+
+    .card__text {
+        padding: 50px auto;
+    }
+
+    .card__text h5 {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    .avatar__wrapper img {
+        width: 63px;
+    }
+
+    .card__info {
+        width: 230px;
+        padding-left: 22px;
+    }
+
+    .card__info-name {
+        margin-bottom: 0px;
+    }
+
+    .card__info-name h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .card__info-profession h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+}
+
+
+@media screen and (max-width: 1015px){
+    .reviews__cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .reviews__header{
+        padding: 0px;
+    }
+
+    .reviews__title h2 {
+        padding: 30px 0;
+    }
+
+    .card__message {
+        max-width: 288px;
+    }
+
+    .card__user {
+        padding-top: 62px;
+    }
+
+    .card__info-name h4 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .card__info-profession h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
 }

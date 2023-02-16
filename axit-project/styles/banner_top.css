@@ -1,11 +1,14 @@
 .banner-top__wrapper {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/image-banner-top.jpg);
     background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     padding: 282px 0 185px 0;
     justify-content: center;
     align-items: center;
 }
+
 .banner-container{
     display: flex;
     max-width: 1200px;
@@ -174,3 +177,150 @@
     background: #AB4949;
     border: 2px solid #AB4949;
 }
+
+@media screen and (max-width: 1200px){
+    .banner-container{
+        max-width: 1024px;
+    }
+
+    .banner-top__wrapper {
+        padding: 202px 0 131px 0;
+    }
+
+    .header__logo {
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .banner-container{
+        max-width: 1024px;
+    }
+
+    .banner-top__content{
+        margin-left: 115px;
+    }
+
+    .divider-banner{ 
+        width: 117px;
+    }
+
+    .banner-top__text{
+        padding-top: 14px;
+    }
+
+    .banner-text__title{
+        padding-bottom: 41px;
+    }
+
+    .banner-text__title h1 {
+    font-size: 36px;
+    line-height: 42px;
+    }
+
+
+    .banner-top__form {
+        max-width: 398px;
+    }
+
+    .banner-form__title h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .banner-text__description{
+        padding: 9px 0;
+    }
+
+    .banner-text__description h5 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .banner-form__btn{
+        width: 398px;
+    }
+
+    .banner-top__btn {
+        width: 183px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    ul.menu__list {
+        flex-wrap: wrap;
+    }
+
+    .banner-container {
+        max-width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-top__wrapper {
+        padding: 170px 0 90px 0;
+    }
+
+    .banner-top__content {
+        max-width: 300px;
+    }
+
+    .banner-form__wrap {
+        padding: 0 28px;
+    }
+
+    .banner-top__form {
+    max-width: 288px;
+    height: 381px;
+    }
+
+    .banner-form__title h4 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .banner-top__button{
+        margin-bottom: 56px;
+    }
+
+    .banner-form__btn{
+        width: 288px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .banner-top__wrapper {
+        padding: 128px 0 60px 0;
+    }
+    
+    .banner-container{
+        max-width: 288px;
+    }
+
+    .banner-top__logo {
+        display: none;
+    }
+    .banner-top__content {
+        max-width: 288px;
+        align-items: center;
+        text-align: center;
+        margin: 0 16px;
+    }
+
+    .divider-banner{ 
+        display: inline-block;
+        width: 134px;
+    }
+
+    .banner-text__title {
+        padding-bottom: 31px;
+    }
+
+    .banner-top__btn {
+        width: 288px;
+    }
+}
+
+

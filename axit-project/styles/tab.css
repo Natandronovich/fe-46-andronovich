@@ -66,7 +66,6 @@
 
 .tabs__text{
     max-width: 570px;
-    /* white-space: pre-line; */
 }
 
 .tabs__text h5 {
@@ -106,4 +105,123 @@
 .tabs__btn:active{
     background: #EC7979;
     box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+@media screen and (max-width: 1024px){
+    .tabs__list {
+        padding: 50px 0 50px 0;
+    }
+
+    .tabs__block-text {
+        max-width: 594px;
+        margin: 0 26px 0 85px;
+        padding-bottom: 50px;
+    }
+
+    .tabs__wrapper>label {
+        width: 156px;
+    }
+
+    .tabs__wrapper>input[type="radio"]:checked+label {
+        width: 172px;
+    }
+
+    .tabs__text{
+        padding-bottom: 15px;
+    }
+
+    .tabs__btn {
+        width: 232px;
+        height: 58px;
+    }
+
+    .tabs__image img {
+        width: 398px;
+        height: 382px;
+    }
+
+    .tabs__title {
+        padding: 32px 0;
+    }
+
+    .tabs__title h3 {
+        font-size: 24px;
+        line-height: 33px; 
+    }
+
+    .tabs__text h5{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .tabs__list{
+        padding-top: 41px;
+    }
+
+    .tabs__image img {
+        display: none;
+    }
+
+    .tabs__block-text {
+        max-width: 250px;
+        margin: 0 24px 0 90px;
+    }
+
+    .tabs__wrapper>label {
+        width: 75px;
+    }
+
+    .tabs__wrapper>input[type="radio"]:checked+label {
+        width: 90px;
+    }
+    .tabs__title {
+        padding: 47px 0;
+    }
+
+    .tabs__title h3 {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    }
+
+    .tabs__text h5{
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 450px){
+    .tabs__block-text{
+        margin: 0 24px 0 26px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .tabs__title {
+        padding: 35px 0;
+    }
+    .tabs__title h3 {
+        text-align: center;
+        }
+
+    .tabs__block-text {
+        max-width: 242px;
+        margin: 0 24px 0 5px;
+    }
+
+    .tabs__text h5{
+        text-align: center;
+    }
+
+    .tabs__btn {
+        width: 242px;
+        height: 50px;
+        margin-bottom: -20px;
+    }
 }
