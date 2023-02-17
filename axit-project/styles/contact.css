@@ -162,6 +162,14 @@ contact__btn:hover{
     }
 }
 
+@media screen and (max-width: 350px){
+    .contact__btn {
+        width: 232px;
+        height: 58px;
+    }
+}
+
+
 @media screen and (max-width: 320px){
     .contact__wrapper {
         margin: 0 0 40px 0;

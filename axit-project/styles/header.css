@@ -101,7 +101,7 @@ ul.menu__list li {
     transform-origin: right bottom;
 }
 
-/* .header__burger_active в js или через :active?? */
+/* .header__burger_active в js */
 /* .header__burger.header__burger_active span:first-child {
     position: absolute;
     transform: rotate(45deg);

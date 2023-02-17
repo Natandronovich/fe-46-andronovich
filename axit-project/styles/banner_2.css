@@ -129,6 +129,14 @@
     }
 }
 
+@media screen and (max-width: 350px){
+    .banner-two__btn {
+        width: 232px;
+        height: 58px;
+    }
+}
+
+
 @media screen and (max-width: 320px){
     .banner-two__title h2 {
         padding-bottom: 46px;
