@@ -58,6 +58,7 @@
     flex-direction: column;
     align-items: center;
     margin: 20px 15px 0 15px;
+    cursor: pointer;
 }
 
 .pricing__card-tarif {
@@ -189,7 +190,8 @@
 
 @media screen and (max-width: 1015px){
     .pricing__cards{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

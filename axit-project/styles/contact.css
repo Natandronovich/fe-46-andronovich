@@ -46,7 +46,7 @@
 .form__row{
     display: flex;
     margin-bottom: 16px;
-    width: 1170px;
+    width: 100%;
 }
 
 .contact__input{
@@ -124,11 +124,6 @@ contact__btn:hover{
     box-shadow: inset 0px 0px 10px #AB4949;
 }
 
-@media screen and (max-width: 1200px){
-    .form__row{
-        width: 992px;
-    }
-}
 
 @media screen and (max-width: 1024px){
     .contact__title{
@@ -159,16 +154,9 @@ contact__btn:hover{
 
 }
 
-@media screen and (max-width: 1015px){
-    .form__row {
-        width: 650px;
-        flex-wrap: wrap;
-    }
-}
 
 @media screen and (max-width: 850px){
     .form__row {
-        width: 300px;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -179,11 +167,6 @@ contact__btn:hover{
         margin: 0 0 40px 0;
     }
 
-    .form__row {
-        width: 288px;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
 
     .contact__btn {
         width: 288px;

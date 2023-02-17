@@ -49,6 +49,7 @@ ul.menu__list li {
 
 .menu__link:hover{
     background: #EC7979;
+    transition: all ease-in-out 0.3s;
 }
 
 .menu__link:active{
@@ -83,26 +84,38 @@ ul.menu__list li {
     width: 100%;
     height: 2px;
     background: #FFFFFF;
+    transition: all 0.3s;
 }
 
+.header__burger:hover span:nth-child(1){
+    transform: translate(6px, -2px) rotate(45deg);
+    transform-origin: left top;
+}
 
-.header__burger span:first-child:active {
+.header__burger:hover span:nth-child(2){
+    transform: scale(0);
+}
+
+.header__burger:hover span:nth-child(3){
+    transform: translate(-2px, -18px) rotate(-45deg);
+    transform-origin: right bottom;
+}
+
+/* .header__burger_active в js или через :active?? */
+/* .header__burger.header__burger_active span:first-child {
     position: absolute;
     transform: rotate(45deg);
 }
 
-.header__burger span:nth-child(2):active {
+.header__burger.header__burger_active span:nth-child(2) {
     position: absolute;
     transform: rotate(-45deg);
 }
 
-.header__burger span:last-child:active {
+.header__burger.header__burger_active span:last-child {
     display: none;
 }
-
-.header__burger button:active {
-    justify-content: center;
-}
+*/
 
 .sidebar {
     display: none;
@@ -132,6 +145,12 @@ ul.sidebar__list {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.sidebar__link:hover{
+    background: #EC7979;
+    transition: all ease-in-out 0.3s;
+}
+
 
 ul.sidebar__list li { 
     display: inline-block;
@@ -187,24 +206,6 @@ ul.sidebar__list li {
 }
 
 @media screen and (max-width: 590px){
-    .menu__link{
-        padding: 0 5px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .header {
-        min-height: 56px;
-    }
-
-    .sidebar {
-        display: flex;
-    }
-
-    .header__logo {
-        margin-left: 18px;
-        width: 140px;
-    }
     nav.menu{
         display: none;
     }
@@ -215,6 +216,21 @@ ul.sidebar__list li {
 
     .sidebar{
         display: block;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header {
+        min-height: 56px;
+    }
+
+    .header__logo {
+        margin-left: 18px;
+        width: 140px;
+    }
+
+    .sidebar{
         width: 100%;
     }
 
