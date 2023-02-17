@@ -87,35 +87,21 @@ ul.menu__list li {
     transition: all 0.3s;
 }
 
-.header__burger:hover span:nth-child(1){
-    transform: translate(6px, -2px) rotate(45deg);
+
+.header__burger.header__burger_active span:first-child {
+    transform: translate(3px, -11px) rotate(45deg);
     transform-origin: left top;
 }
 
-.header__burger:hover span:nth-child(2){
-    transform: scale(0);
-}
-
-.header__burger:hover span:nth-child(3){
-    transform: translate(-2px, -18px) rotate(-45deg);
+.header__burger.header__burger_active span:nth-child(2) {
+    translate(-4px, -20px) rotate(-45deg);
     transform-origin: right bottom;
 }
 
-/* .header__burger_active в js */
-/* .header__burger.header__burger_active span:first-child {
-    position: absolute;
-    transform: rotate(45deg);
-}
-
-.header__burger.header__burger_active span:nth-child(2) {
-    position: absolute;
-    transform: rotate(-45deg);
-}
-
 .header__burger.header__burger_active span:last-child {
-    display: none;
+    transform: scale(0);
 }
-*/
+
 
 .sidebar {
     display: none;
