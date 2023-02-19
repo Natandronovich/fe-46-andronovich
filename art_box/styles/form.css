@@ -42,7 +42,6 @@ body{
     display: flex;
     margin-bottom: 30px;
     min-height: 188px;
-    /* align-items: center; */
 }
 
 .textarea,
@@ -170,7 +169,6 @@ body{
 .checkbox__input:checked + .checkbox__fake::before{
     opacity: 1;
 }
-
 
 .label__text{
     font-weight: 400;
