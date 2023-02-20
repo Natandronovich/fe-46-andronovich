@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,600&family=Spectral+SC:wght@600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reviews{
+    margin-top: 50px;
+}
+
+.container{
+    max-width: 1364px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.reviews__wrap {
+    display: flex;
+    background: #FBF7F6;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.reviews__form{
+    margin: 35px 50px;
+}
+
+.reviews-form__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.reviews-form__title h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #371030;
+}
+
+.textarea__wrap {
+    display: flex;
+    margin-bottom: 30px;
+    min-height: 188px;
+}
+
+.textarea,
+.reviews__input{
+    resize: none;
+    width: 100%;
+    border: none;
+    background: #F9F0EE;
+    border-radius: 5px;
+}
+
+/* .reviews__input:focus{
+    box-shadow: 0 0 20px rgb(255, 148, 160 0.5);
+}
+
+.textarea:focus{
+    box-shadow: 0 0 20px rgb(255, 148, 160 0.5);
+} */
+
+.textarea,
+.reviews__input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+
+.textarea::placeholder{
+    padding: 18px 25px 0 25px;
+}
+
+.reviews__input::placeholder{
+    padding: 6px 25px 5px 25px;
+}
+
+.input__wrap{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.reviews__input{
+    margin-right: 37px;
+    min-height: 41px;
+}
+
+.reviews__input:last-child{
+    margin-right: 0;
+}
+
+.buttons__wrap{
+    display: flex;
+    align-items: center;
+}
+
+.button__wrap{
+    margin-right: 30px;
+}
+
+.reviews__btn{
+    width: 250px;
+    height: 63px;
+    border: none;
+    border-radius: 100px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #9A3C48;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.reviews__btn:hover{
+    background: #FC9FAB;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+    border-radius: 100px;
+}
+
+.reviews__btn:active{
+    background: #ff94a0;
+}
+
+.checkbox__label{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.checkbox__input{
+    display: none;
+}
+
+.checkbox__fake{
+    display: inline-block;
+    width: 26px;
+    height: 23px;
+    background: #F9F0EE;
+    border-radius: 5px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.checkbox__fake::before{
+    content: url('../img/.svg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    display: block;
+    width: 12px;
+    height: 30px;
+    opacity: 0;
+    transition: 0.2s;
+    margin-right: 15px;
+}
+
+.checkbox__input:checked + .checkbox__fake::before{
+    opacity: 1;
+}
+
+.label__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.5;
+}
+
