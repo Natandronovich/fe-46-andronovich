@@ -132,6 +132,10 @@
 }
 
 
+.reviews-card__radio{
+    display: none;
+}
+
 @media screen and (max-width: 1200px){
     .reviews__card{
         max-width: 319px;
@@ -208,9 +212,40 @@
 
 @media screen and (max-width: 1015px){
     .reviews__cards{
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .reviews-card__radio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 31px;
+    }
+
+    .reviews__card:nth-child(1),
+    .reviews__card:nth-child(3){
+        display: none;
+    }
+
+    .reviews__btn{
+        display: block;
+        width: 50px;
+        height: 14px;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+        position: relative;
+    }
+
+    .reviews__btn:checked::before{
+        content: url(../images/Ellipse_filled.svg);
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -23%);
+        transition: all ease-in-out 0.2s;
     }
 }
 
