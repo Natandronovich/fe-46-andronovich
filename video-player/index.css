@@ -1,0 +1,22 @@
+
+body{
+    height: 100%;
+    background-color: #f6d192be;
+}
+
+.video_container{
+    max-width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.video__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.video{
+    width: 100%;
+}
