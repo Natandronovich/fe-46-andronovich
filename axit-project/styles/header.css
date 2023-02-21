@@ -91,12 +91,10 @@ ul.menu__list li {
 .header__burger.header__burger_active span:first-child {
     transform: translate(3px, -2px) rotate(45deg);
     transform-origin: left top;
-    /* transform: rotate(45deg); */
 }
 
 .header__burger.header__burger_active span:nth-child(2) {
     transform: translate(-4px, -11px) rotate(-45deg);
-    /* transform: rotate(-45deg); */
     transform-origin: right bottom;
 }
 
