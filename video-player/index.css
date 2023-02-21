@@ -5,28 +5,31 @@
 }
 
 
-body{
+/* body{
     height: 100%;
     background-color: #fbfaf8e3;
-}
+} */
 
-.video_container{
+/* .video_container{
     max-width: 1500px;
     padding: 0 15px;
     margin: 0 auto;
-}
+} */
 
 .video__wrap{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-
-    /* min-height: 100vh;
+    /* margin: 40px; */
+    min-height: 100vh;
     width: 100%;
-    background: white; */
+    background: white;
 }
 
-.video{
-    width: 100%;
+.controls{
+    display: flex;
 }
+
+/* .video{
+    width: 100%;
+} */

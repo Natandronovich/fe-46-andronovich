@@ -10,7 +10,44 @@
 <body>
     <div class="video_container">
         <div class="video__wrap">
-            <video class="video" controls preload="metadata" poster="./image/animals.jpg" muted src="./video/animal_balls.mp4"></video>
+            <div class="player">
+                <video class="video" preload="metadata" poster="./image/animals.jpg" muted src="./video/animal_balls.mp4"></video>
+                <div class="controls">
+                    <div class="controls__play">
+                        <button class="play">
+                            <img src="./image/ico-play.png" alt="play" />
+                        </button>
+                    </div>
+                    <div class="controls__pause">
+                        <button class="stop">
+                            <img src="" alt="pause" />
+                        </button>
+                    </div>
+                    <div class="controls__progress">
+                        <progress></progress>
+                    </div>
+                    <div class="controls__volume ">
+                        <button class="volume">
+                            <img src="./image/ico-sound.png" alt="volume" />
+                        </button>
+                    </div>
+                    <div class="controls__ mute">
+                        <button class="mute">
+                            <img src="" alt="mute" />
+                        </button>
+                    </div>
+                    <div class="controls__settings">
+                        <button class="settings">
+                            <img src="" alt="Settings" />
+                        </button>
+                    </div>
+                    <div class="controls__fullscreen">
+                        <button class="fullscreen">
+                            <img src="./image/ico-fullscreen.png" alt="fullscreen" />
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
