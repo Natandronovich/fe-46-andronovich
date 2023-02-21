@@ -231,7 +231,7 @@
     .reviews__btn{
         display: block;
         width: 50px;
-        height: 14px;
+        height: 9px;
         border: none;
         cursor: pointer;
         background: transparent;
@@ -244,7 +244,7 @@
         display: block;
         top: 0;
         left: 50%;
-        transform: translate(-50%, -23%);
+        transform: translate(-50%, -33%);
         transition: all ease-in-out 0.2s;
     }
 }
