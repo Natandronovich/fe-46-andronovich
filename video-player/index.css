@@ -59,17 +59,35 @@
     cursor: pointer;
 }
 
+.play:hover,
+.pause:hover,
+.volume:hover,
+.mute:hover,
+.settings:hover,
+.fullscreen:hover{
+    transform: scale(1.3);
+}
+
 .controls__volume{
-    /* margin-left: auto; */
-    margin-left: 10px;
+    margin-left: auto;
+    /* margin-left: 10px; */
 }
 
 .controls__progress{
     flex: 1;
-    max-width: 540px;
+    padding-right: 10px;
 }
 
 .controls__progress input{
     width: 100%;
     cursor: pointer;
+}
+
+.controls__play img,
+.controls__pause img,
+.controls__volume img,
+.controls__mute img,
+.controls__settings img,
+.controls__fullscreen img{
+    width: 20px;
 }
