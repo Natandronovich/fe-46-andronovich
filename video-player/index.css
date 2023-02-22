@@ -71,4 +71,5 @@
 
 .controls__progress input{
     width: 100%;
+    cursor: pointer;
 }
