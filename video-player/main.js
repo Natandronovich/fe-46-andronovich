@@ -29,3 +29,19 @@ btnPause.addEventListener('click', stopVideo)
 //     video.curretTime = (progress.value * video.duration) / 100
 // }
 // progress.addEventListener('change', setProgress)
+
+// function mute() {
+//     video.muted()
+// }
+// btnMute.addEventListener('click', sound)
+
+// function sound() {
+//     if (mute.value == 'Mute'){
+//         video.muted = true;
+//         mute.value = 'Sound'
+//     } else {
+//         video.muted = false;
+//         mute.value = 'Sound';
+//     }
+// }
+// btnMute.addEventListener('click', sound)
