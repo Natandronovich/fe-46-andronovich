@@ -21,6 +21,7 @@
     max-width: 670px;
     flex-direction: column;
     align-items: flex-start;
+    margin-right: 30px;
 }
 
 .banner-top__form {
@@ -45,6 +46,7 @@
     display: flex;
     align-items: center;
     padding-bottom: 55px;
+
 }
 
 .banner-text__title h1 { 
@@ -112,16 +114,17 @@
     padding: 0 50px;
 }
 
+
 .banner-form__title h4 {
-    padding: 33px 0;
+    padding: 28px 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    display: flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+    margin-bottom: 25px;
 }
 
 .banner-form__title span {
@@ -133,7 +136,7 @@
     border: none;
     border-bottom: 1px solid #BDBDBD;
     padding: 16px 0;
-    margin-bottom: 20px;
+    margin-bottom: 17px;
 }
 
 .banner-top__input:last-child{
@@ -190,6 +193,7 @@
     .header__logo {
         margin-left: 35px;
     }
+    
 }
 
 @media screen and (max-width: 1024px){

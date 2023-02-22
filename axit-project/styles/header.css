@@ -21,15 +21,16 @@
     max-width: 183px;
 }
 
-nav.menu{
+/* nav.menu{
     margin-right: 55px;
-}
+} */
+
 
 ul.menu__list { 
     display: flex;
     justify-content: space-around;
     max-width: 570px;
-    margin-right: 55px;
+    margin-right: 62px;
     align-items: center;
     text-align: center;
 }
