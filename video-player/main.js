@@ -17,12 +17,13 @@ function toggleVideoStatus() {
 }
 btnPlay.addEventListener('click', toggleVideoStatus)
 video.addEventListener('click', toggleVideoStatus)
+btnPause.addEventListener('click', toggleVideoStatus)
 
 
-function stopVideo() {
-    video.pause()
-}
-btnPause.addEventListener('click', stopVideo)
+// function stopVideo() {
+//     video.pause()
+// }
+// btnPause.addEventListener('click', stopVideo)
 
 
 // function setProgress() {
