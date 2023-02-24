@@ -220,6 +220,7 @@
     .reviews__cards{
         align-items: center;
         justify-content: center;
+        padding: 8px 0 20px 0;
     }
 
     .reviews-card__radio{
@@ -234,73 +235,32 @@
         display: none;
     }
 
-    /* .reviews__btn{
-        display: block;
-        width: 50px;
-        height: 9px;
-        border: none;
-        cursor: pointer;
-        background: transparent;
-        position: relative;
-    }
-
-    .reviews__btn:checked::before{
-        content: url(../images/Ellipse_filled.svg);
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, -33%);
-        transition: all ease-in-out 0.2s;
-    } */
-
-        .reviews-card__radio{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 31px;
-        position: relative;
-    } 
-
     .radio__input{
-        appearance: none;
-        position: absolute;
+        display: none;
     }
 
-    .radio__label{
-        font-size: 10px;
-        height: 10px;
-        cursor: pointer;
-    }
-
-    .radio__label::before{
-        content: url('../images/Ellipse.svg');
+    .radio__input + label::before{
+        content: '';
         display: block;
         width: 10px;
         height: 10px;
-        position: absolute;
-        opacity: 1;
-        z-index: 1;
+        border: 1px solid #86878B;
+        border-radius: 50%;
+        margin: 20px;
     }
 
-    .radio__label::after{
-        content: url('../images/Ellipse_filled.svg');
-        display: block;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        opacity: 0;
-        z-index: 2;
-    }
-
-    .radio__input:checked + .radio__label::after{
-        opacity: 1;
+    .radio__input:checked + label::before{
+        background: #86878B;
     }
 }
 
 @media screen and (max-width: 320px){
     .reviews__header{
         padding: 0px;
+    }
+
+    .reviews__cards {
+        padding: 8px 0 17px 0;
     }
 
     .reviews__title h2 {
