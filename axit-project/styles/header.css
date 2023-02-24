@@ -65,7 +65,7 @@ ul.menu__list li {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin-left: -40px;
+    margin-left: -30px;
     background: transparent;
     border: none;
     justify-content: space-between;
