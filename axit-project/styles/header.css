@@ -21,10 +21,6 @@
     max-width: 183px;
 }
 
-/* nav.menu{
-    margin-right: 55px;
-} */
-
 
 ul.menu__list { 
     display: flex;
@@ -69,7 +65,7 @@ ul.menu__list li {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin-left: -20px;
+    margin-left: -40px;
     background: transparent;
     border: none;
     justify-content: space-between;
@@ -187,12 +183,16 @@ ul.sidebar__list li {
         padding: 0 10px;
     }
 
+    nav.menu {
+        margin-right: 20px;
+    }
+
     ul.menu__list {
         flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 592px){
     nav.menu{
         display: none;
     }

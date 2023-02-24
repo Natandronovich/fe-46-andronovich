@@ -264,11 +264,24 @@
     }
 
     .banner-top__wrapper {
-        padding: 170px 0 90px 0;
+        padding: 135px 0 90px 0;
     }
 
     .banner-top__content {
         max-width: 300px;
+        align-items: center;
+        text-align: center;
+        margin: 0 16px;
+        /* margin-left: 45px; */
+    }
+
+    .banner-top__logo {
+        display: none;
+    }
+
+    .divider-banner{ 
+        display: inline-block;
+        width: 134px;
     }
 
     .banner-form__wrap {
@@ -306,6 +319,7 @@
     .banner-top__logo {
         display: none;
     }
+
     .banner-top__content {
         max-width: 288px;
         align-items: center;

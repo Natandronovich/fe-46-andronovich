@@ -198,9 +198,28 @@
 
 @media screen and (max-width: 450px){
     .tabs__block-text{
-        margin: 0 24px 0 26px;
+        margin: 0 24px 0 75px;
     }
 }
+
+@media screen and (max-width: 420px){
+    .tabs__block-text{
+        margin: 0 24px 0 60px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .tabs__block-text{
+        margin: 0 24px 0 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .tabs__block-text{
+        margin: 0 24px 0 40px;
+    }
+}
+
 
 @media screen and (max-width: 320px){
     .tabs__title {
