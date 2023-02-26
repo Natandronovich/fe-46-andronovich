@@ -29,7 +29,7 @@
     <section class="main-content">
         <div class="main-content__wrap">
             <div class="video-bg">
-                <video src="./video/waterfall.mp4" class="video" type="video" autoplay muted loop id="myVideo"></video>
+                <video id="vid1" src="./video/waterfall.mp4" class="video" type="video" autoplay muted loop id="myVideo"></video>
                 <div class="main-content__menu">
                     <ul class="main-content__list">
                         <li><a href="#" class="main-content__link">Шум дождя</a></li>
@@ -40,6 +40,14 @@
                         <li><a href="#" class="main-content__link">Музыка для сна</a></li>
                     </ul>
                 </div>
+                <div class="main-content__buttons">
+                    <div class="button__play">
+                        <button class="btn__play" type="button"></button>
+                    </div>
+                    <div class="button__mute">
+                        <button onclick="mute(this, 'vid1')" class="btn__mute" type="button"></button>
+                    </div>
+                </div>
                 <aside class="icons">
                     <ul class="icon__list">
                         <li><a class="icon-facebook" href="https://www.facebook.com/" target="_blank"><img src="./images/facebook1.svg" alt="facebook"></a></li>
@@ -48,16 +56,6 @@
                     </ul>
                 </aside>
             </div>
-            <!-- <div class="main-content__menu">
-                <ul class="main-content__list">
-                    <li><a href="#" class="main-content__link">Шум дождя</a></li>
-                    <li><a href="#" class="main-content__link">Шум ветра</a></li>
-                    <li><a href="#" class="main-content__link">Шум моря</a></li>
-                    <li><a href="#" class="main-content__link">Птицы</a></li>
-                    <li><a href="#" class="main-content__link">Звуки леса</a></li>
-                    <li><a href="#" class="main-content__link">Музыка для сна</a></li>
-                </ul>
-            </div> -->
         </div>
     </section>
     <script src="./main.js"></script>
