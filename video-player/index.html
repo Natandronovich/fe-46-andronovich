@@ -11,7 +11,7 @@
     <div class="video__container">
         <div class="video__wrap">
             <div class="player">
-                <video class="video" preload="metadata" poster="./image/animals.jpg" src="./video/animal_balls.mp4"></video>
+                <video id="vid1" class="video" preload="metadata" poster="./image/animals.jpg" src="./video/animal_balls.mp4"></video>
                 <div class="controls">
                     <div class="controls__play">
                         <button class="play">
@@ -32,7 +32,7 @@
                         </button>
                     </div>
                     <div class="controls__mute">
-                        <button class="mute">
+                        <button onclick="mute(this, 'vid1')" class="mute">
                             <img src="./image/volume-mute.svg" alt="mute" />
                         </button>
                     </div>

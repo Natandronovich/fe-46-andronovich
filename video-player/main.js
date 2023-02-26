@@ -19,6 +19,15 @@ btnPlay.addEventListener('click', toggleVideoStatus)
 video.addEventListener('click', toggleVideoStatus)
 btnPause.addEventListener('click', toggleVideoStatus)
 
+function mute(btn,elem){
+    var video = document.getElementById(elem);
+    if (video.muted){
+    video.muted = false;
+    } else{
+    video.muted = true;
+    }
+}
+
 
 // function stopVideo() {
 //     video.pause()
