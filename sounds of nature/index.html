@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <title>Звуки природы</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrap">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__logo">
+                        <h2>Sound</h2>
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="#" class="header__link">Log in</a></li>
+                            <li><a href="#" class="header__link">O нас</a></li>
+                            <li><a href="#" class="header__link">Помощь</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="main-content__wrap">
+            <div class="video-bg">
+                <video id="vid1" src="./video/waterfall.mp4" class="video" type="video" autoplay muted loop id="myVideo"></video>
+                <div class="main-content__menu">
+                    <ul class="main-content__list">
+                        <li><a href="#" class="main-content__link">Шум дождя</a></li>
+                        <li><a href="#" class="main-content__link">Шум ветра</a></li>
+                        <li><a href="#" class="main-content__link">Шум моря</a></li>
+                        <li><a href="#" class="main-content__link">Птицы</a></li>
+                        <li><a href="#" class="main-content__link">Звуки леса</a></li>
+                        <li><a href="#" class="main-content__link">Музыка для сна</a></li>
+                    </ul>
+                </div>
+                <div class="main-content__buttons">
+                    <div class="button__play">
+                        <button class="btn__play" type="button"></button>
+                    </div>
+                    <div class="button__mute">
+                        <button onclick="mute(this, 'vid1')" class="btn__mute" type="button"></button>
+                    </div>
+                </div>
+                <aside class="icons">
+                    <ul class="icon__list">
+                        <li><a class="icon-facebook" href="https://www.facebook.com/" target="_blank"><img src="./images/facebook1.svg" alt="facebook"></a></li>
+                        <li><a class="icon-twitter" href="https://twitter.com/" target="_blank"><img src="./images/twitter.svg" alt="twitter"></a></li>
+                        <li><a class="icon-instagram" href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.svg" alt="instagram"></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+
+                <!-- <div class="header__burger">
+                    <button onclick="onBurgerClick(this)" type="button">
+                    <img src="">
+                    </button>
+                </div>
+                <aside class="sidebar">
+                    <nav class="sidebar__menu">
+                        <ul class="sidebar__list">
+                            <li>
+                                <a href="#"  class="sidebar__link">Шум дождя</a>
+                            </li>
+                            <li>
+                                <a href="#"  class="sidebar__link">Шум ветра</a>
+                            </li>
+                            <li>
+                                <a href=""  class="sidebar__link">Шум моря</a>
+                            </li>
+                            <li><a href="#"  class="sidebar__link">Птицы</a>
+                            </li>
+                            <li>
+                                <a href="#"  class="sidebar__link">Звуки леса</a>
+                            </li>
+                            <li>
+                                <a href=""  class="sidebar__link">Музыка для сна</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside> -->
