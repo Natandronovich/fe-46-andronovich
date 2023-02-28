@@ -1,0 +1,70 @@
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__logo {
+    max-width: 113px;
+    max-height: 25px;
+    margin-right: 38px;
+}
+
+.header__search {
+    position: relative;
+    margin-right: 37px;
+    flex-grow: 1;
+}
+
+.header__search input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--mercury-background-color);
+    padding: 17px 50px;
+}
+
+.header__search::before {
+    content: "\e904";
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    z-index: 10;
+    font-family: var(--Icon);
+    font-size: 18px;
+    color: var(--black-text-color);
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list a {
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.header__list li:last-child a{
+    margin-right: 0px;
+}
+
+.header__list a.heart::after,
+.header__list a.lock::after,
+.header__list a.user::after{
+    font-family: var(--Icon);
+    font-size: 18px;
+    color: var(--black-text-color);
+}
+
+.header__list a.heart::after {
+    content: "\e90a";
+}
+
+.header__list a.lock::after{
+    content: "\e905";
+}
+
+.header__list a.user::after{
+    content: "\e908";
+}

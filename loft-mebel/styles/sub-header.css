@@ -2,15 +2,10 @@
     background-color: var(--shaft-background-color);
 }
 
-
 .sub-header__wrapper{
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-}
-
-.sub-header_actions{
-
 }
 
 .sub-header__list{
@@ -28,4 +23,22 @@
 
 .sub-header__list li:last-child a{
     margin-right: 0px;
+}
+
+.sub-header__list a.phone::before,
+.sub-header__list a.truck::before {
+    position: relative;
+    bottom: -2px;
+    margin-right: 10px;
+    font-family: var(--Icon);
+    font-size: 17px;
+    color: var(--white-text-color);
+}
+
+.sub-header__list a.phone::before {
+    content: "\e90c";
+}
+
+.sub-header__list a.truck::before {
+    content: "\e90b";
 }

@@ -1,0 +1,35 @@
+.navigation__actions{
+    padding: 24px 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation__list a {
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--tundora-text-color);
+}
+
+.navigation__list a.sale {
+    color: var(--valencia-text-color);
+}
+
+.navigation__list a img{
+    margin-right: 10px;
+}
+
+.navigation__list a.dots::after{
+    content: "\e90d";
+    font-family: var(--Icon);
+    font-size: 18px;
+    color: var(--black-text-color);
+}
