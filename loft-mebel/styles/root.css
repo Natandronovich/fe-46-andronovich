@@ -1,0 +1,17 @@
+:root {
+    --Roboto: 'Roboto', sans-serif;
+    --Condensed: "Roboto Condensed", sans-serif;
+    --Playfair: "Playfair Display", sans-serif;
+    --Icon: "icomoon" !important;
+
+    --shaft-background-color: #313131;
+    --blue-background-color: #245462;
+    --mercury-background-color: #e6e6e6;
+    --white-background-color: #ffffff;
+
+    --white-text-color: #ffffff;
+    --black-text-color: #000000;
+    --tundora-text-color: #414141;
+    --silver-text-color: #c4c4c4;
+    --valencia-text-color: #d74444;
+}
