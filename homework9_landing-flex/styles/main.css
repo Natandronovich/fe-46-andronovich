@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+
+body{
+    font-family: 'Shantell Sans', cursive;
+}
+
+.panels{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.panel{
+    background: #cb6fbf;
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.102);
+    color: #fff;
+    text-shadow: 5px 3px 6px #000000;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+        flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11), 
+        background 0.2s;
+}
+
+
+.panel-january{
+    background-image: url(../images/winter2.jpg);
+}
+
+.panel-spring{
+    background-image: url(../images/spring.jpg);
+}
+
+.panel-summer{
+    background-image: url(../images/summer4.jpg);
+}
+
+.panel-autumn{
+    background-image: url(../images/autumn2.jpg);
+}
+
+.panel-all{
+    background-image: url(../images/all2.jpg);
+    padding: 5px;
+}
+
+.panel > *{
+    margin: 0;
+    width: 100%;
+    transition: transform 0.5s;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel > *:first-child{
+    transform: translateY(-100%);
+}
+
+.panel.open-active > *:first-child{
+    transform: translateY(0);
+}
+
+.panel > *:last-child{
+    transform: translateY(100%);
+}
+
+.panel.open-active > *:last-child{
+    transform: translateY(0);
+}
+
+.panel.open {
+    flex: 4;
+    font-size: 50px;
+}
