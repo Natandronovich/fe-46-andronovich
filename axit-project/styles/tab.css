@@ -221,6 +221,12 @@
 }
 
 
+@media screen and (max-width: 350px){
+    .tabs__block-text{
+        margin: 0 24px 0 30px;
+    }
+}
+
 @media screen and (max-width: 320px){
     .tabs__title {
         padding: 35px 0;
