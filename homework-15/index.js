@@ -42,7 +42,7 @@ let wordThree = 'наледь';
 let wordFour = 'попрек';
 let wordFive = 'рубило';
 
-let lengthWords = wordOne.length + wordTwo.length + wordThree.length + wordFour.length + wordFive.length;
+let lengthWords = (wordOne + wordTwo + wordThree + wordFour + wordFive).length;
 console.log(lengthWords)
 
 // task 6
@@ -56,6 +56,7 @@ console.log(name, age);
 let aAdvanced = 4;
 let bAdvanced = 3;
 
+//переделать
 aAdvanced = 3;
 bAdvanced = 4;
 
