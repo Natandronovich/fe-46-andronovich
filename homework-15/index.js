@@ -56,9 +56,7 @@ console.log(name, age);
 let aAdvanced = 4;
 let bAdvanced = 3;
 
-//переделать
-aAdvanced = 3;
-bAdvanced = 4;
+[aAdvanced, bAdvanced] = [bAdvanced, aAdvanced];
 
 console.log(aAdvanced, bAdvanced);
 
