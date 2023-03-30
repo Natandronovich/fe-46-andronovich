@@ -184,9 +184,17 @@ alert(bot(actions));
 
 
 //task 3
+//вариант 1
 for( let i = 0; i < 6; i++){
     for( let j = 0; j < i; j++){
         document.write('#');
     }
     document.write('</br>')
+}
+
+//вариант 2
+let steps = '';
+for(let i = 0; i < 6; i++){
+    steps += '#';
+    console.log(steps);
 }
