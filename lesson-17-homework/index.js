@@ -26,7 +26,7 @@ max();
 
 // task 3
 for (let i = 1; i < 20; i++) {
-        if(i % 3 == 0){
+        if(i % 3 === 0){
             console.log(i);
         }
     }
@@ -46,7 +46,7 @@ console.log(shouldGoToWork);
 // task 5
 let userNumber = prompt('Введите число', '');
 
-if(userNumber % 3 === 0 && userNumber % 5 == 0){
+if(userNumber % 3 === 0 && userNumber % 5 === 0){
     console.log('FizBuz');
 }else if(userNumber % 5 === 0){
     console.log('Fiz');
@@ -114,46 +114,46 @@ let result = (((questionNumber - questionSubtract) + questionAdd) * questionMult
 alert((((questionNumber - questionSubtract) + questionAdd) * questionMultiply) / questionDivide);
 
 
-var Action = function(name, str, block) {
+let Action = function(name, str, block) {
     this.name = name;
     this.str = str;
     this.call = block;
 };
-var del = new Action('Сколько отнять от предыдущего результата?', ' - ', function(a, b) {
+let del = new Action('Сколько отнять от предыдущего результата?', ' - ', function(a, b) {
     return a - b;
 });
-var add = new Action('Сколько прибавить к предыдущему результату?', ' + ', function(a, b) {
+let add = new Action('Сколько прибавить к предыдущему результату?', ' + ', function(a, b) {
     return a + b;
 });
-var multiply = new Action('На сколько умножить предыдущий результат?', ' * ', function(a, b) {
+let multiply = new Action('На сколько умножить предыдущий результат?', ' * ', function(a, b) {
     return a * b;
 });
-var divide = new Action('На сколько разделить предыдущий результат?', ' / ', function(a, b) {
+let divide = new Action('На сколько разделить предыдущий результат?', ' / ', function(a, b) {
     if (b == 0) throw 'Division by zero';
     return a / b;
 });
 
-var bot = function(actions) {
-    var gets = function(index) {
+let bot = function(actions) {
+    let gets = function(index) {
         return +prompt(actions[index].name);
     };
 
-    var lastAction = actions.length - 1;
+    let lastAction = actions.length - 1;
 
-    var singleAction = function() {
+    let singleAction = function() {
         var x = +prompt('Введите число:'),
         y = gets(lastAction);
 
     return x + actions[lastAction].str + y + ' = ' + actions[lastAction].call(x, y);
     }
 
-    var severalActions = function() {
+    let severalActions = function() {
         var x = +prompt('Введите число:'),
         y, formula;
 
         formula = x;
 
-        for (var i = 0; i < lastAction; i++) {
+        for (let i = 0; i < lastAction; i++) {
         y = gets(i);
         formula = '(' + formula + actions[i].str + y + ')';
         x = actions[i].call(x, y);
@@ -168,7 +168,7 @@ var bot = function(actions) {
     return lastAction == 0 ? singleAction() : severalActions();
 }
 
-var actions = [del, add, multiply, divide];
+let actions = [del, add, multiply, divide];
 
 alert(bot(actions));
 
