@@ -103,12 +103,13 @@ switch (bestTrip) {
 
 //ADVANCED level
 //task 1
-// let wryUserName = 'пОлИнА нАбЕрЕжНаЯ';
-
-const f=(s)=>{
-    alert('Привет, '+s.toLowerCase().split(/\s+/).map(x=>x[0]=x[0].toUpperCase()+x.slice(1)).join(' ')+'!')
-    }
-    f('пОлИнА нАбЕрЕжНаЯ');
+    let wryUserName = 'пОлИнА нАбЕрЕжНаЯ';
+    wryUserName = wryUserName
+    .toLowerCase()
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+alert(`Привет, ${wryUserName}`);
 
 
 
@@ -121,66 +122,7 @@ let questionDivide = +prompt('На сколько разделить преды�
 
 let result = (((questionNumber - questionSubtract) + questionAdd) * questionMultiply) / questionDivide;
 
-alert((((questionNumber - questionSubtract) + questionAdd) * questionMultiply) / questionDivide);
-
-
-let Action = function(name, str, block) {
-    this.name = name;
-    this.str = str;
-    this.call = block;
-};
-let del = new Action('Сколько отнять от предыдущего результата?', ' - ', function(a, b) {
-    return a - b;
-});
-let add = new Action('Сколько прибавить к предыдущему результату?', ' + ', function(a, b) {
-    return a + b;
-});
-let multiply = new Action('На сколько умножить предыдущий результат?', ' * ', function(a, b) {
-    return a * b;
-});
-let divide = new Action('На сколько разделить предыдущий результат?', ' / ', function(a, b) {
-    if (b == 0) throw 'Division by zero';
-    return a / b;
-});
-
-let bot = function(actions) {
-    let gets = function(index) {
-        return +prompt(actions[index].name);
-    };
-
-    let lastAction = actions.length - 1;
-
-    let singleAction = function() {
-        var x = +prompt('Введите число:'),
-        y = gets(lastAction);
-
-    return x + actions[lastAction].str + y + ' = ' + actions[lastAction].call(x, y);
-    }
-
-    let severalActions = function() {
-        var x = +prompt('Введите число:'),
-        y, formula;
-
-        formula = x;
-
-        for (let i = 0; i < lastAction; i++) {
-        y = gets(i);
-        formula = '(' + formula + actions[i].str + y + ')';
-        x = actions[i].call(x, y);
-    }
-
-    y = gets(lastAction);
-    x = actions[lastAction].call(x, y);
-    formula += actions[lastAction].str + y + ' = ' + x;
-    return formula;
-    }
-
-    return lastAction == 0 ? singleAction() : severalActions();
-}
-
-let actions = [del, add, multiply, divide];
-
-alert(bot(actions));
+alert(`(((${questionNumber} - ${questionSubtract}) + ${questionAdd}) * ${questionMultiply}) / ${questionDivide} = ${result}`);
 
 
 //task 3
